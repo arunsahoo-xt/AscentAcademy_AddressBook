@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Address Book</title>
+</head>
+<body>
+    
+    <div id="navigation">
+        <ul class="nav-list">
+        <li id="js-show-all">All Contacts</li>
+        <li id="js-add-new">Add Contact</li>
+        <li id="js-search">Search</li>
+    </ul>
+</div>
+<div id="search-panel" class="panel">
+    <h1>Search Contacts</h1>
+    <form id="search">
+        <div id="results">
+          
+      </div>
+        <div>
+            <label>
+                <input type="text" name="search" id="search-input" placeholder="Enter name of contact" />
+            </label>
+        </div>
+                <button type="submit" id="search-contact" class="btn">Submit</button>
+    </form>
+</div>
+
+
+
+    <div id="contact-panel" class="panel">
+        <form id="contact" >
+            <h1>Add a new contact</h1>
+            <div>
+                <label>
+                    <input type="text" name="person" id="name" placeholder="Iron Man" />
+                </label>
+                <label>
+                    <input type="number" name="phone" id="phone" placeholder="Phone Number" />
+                </label>
+                <label>
+                    <input type="text" name="email" id="email" placeholder="xyz@example.com" />
+                </label>
+                <label>
+                    <input type="text" name="address" id="address" placeholder="Address" />
+                </label>
+            </div>
+            <div>
+                <button type="submit" id="form_submit" value="Submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+<div id = "show-panel" class="panel">
+  
+</div>
+<script src="index.js"></script>
+            </body>
+            </html>
